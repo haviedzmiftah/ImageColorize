@@ -1,0 +1,21 @@
+{
+  "config" : { 
+		"debug" : true,
+		"websecurity" : true,
+		"name" : "InstaPIC"
+  },
+  "window" : { 
+		"transparent" : false, 
+		"noframe" : false, 
+		"fullscreen" : false,
+		"maximize" : false,
+		"width" : 400,
+		"height" : 400
+	},
+  "button" : [
+		"back",
+		"forward",
+		"stop",
+		"reload"
+	]
+}
