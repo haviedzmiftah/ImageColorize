@@ -1,3 +1,19 @@
+function asli(imageObj) {
+        var canvas = document.getElementById('myCanvas');
+        var context = canvas.getContext('2d');
+        var x = 0;
+        var y = 0;
+
+        context.drawImage(imageObj, x, y);
+      }
+      
+      var imageObj = new Image();
+      imageObj.onload = 
+      function() {
+		  drawImage(this);
+		  };
+      var imageObj = new Image();
+      imageObj.src = "images/foto.jpg";
 function grayscale(imageObj) {
         var canvas = document.getElementById('myCanvas');
         var context = canvas.getContext('2d');
