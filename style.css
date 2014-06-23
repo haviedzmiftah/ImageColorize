@@ -4,9 +4,9 @@ header {
 	text-align: center;
 	position: relative;
 	background: #000;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid green;
 	color:#fff;
-	font-size:25px;
+	font-size:20px;
 	text-shadow:
 		0 0 1px #FFFFA0,
 		0 0 3px #FFFF4D,
@@ -16,20 +16,23 @@ header {
 		0 0 20px #FEFE00,
 		0 0 3px #F7F700;
 }
+header:hover{
+	background: green;
+}
 
 /*---Tabel---*/
 #canvas {
 	border:2px solid #000;
+	background:gray;
 }
 
 /* ---Tombol---*/
 #button{
 	background:#000;
-	border-top: 1px solid #fff;
+	border-top: 2px solid green;
 }
-
-a:hover {
-	color: #000;
+button:hover{
+	background: gray;
 }
 
 a.btn {
@@ -45,7 +48,7 @@ a.btn {
 }
 
 a.btn:hover {
-	background: #000;
+	background: green;
 	text-shadow:
 		0 0 1px #FFFFA0,
 		0 0 5px #FFFF4D,
