@@ -2,7 +2,7 @@
   "config" : { 
 		"debug" : true,
 		"websecurity" : true,
-		"name" : "ImageTransform"
+		"name" : "ImageColorize"
   },
   "window" : { 
 		"transparent" : false, 
